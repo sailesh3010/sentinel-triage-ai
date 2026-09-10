@@ -351,8 +351,13 @@ function escapeHtml(text) {
 }
 
 function autolink(text) {
+  if (!text) return '';
   const safe = escapeHtml(text);
-  return safe.replace(/(https?:\/\/[^\s<)]+)/g, '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>');
+  return safe.replace(/(https?:\/\/[^\s<)]+)/g, function(url) {
+    var cleanUrl = url.replace(/[.,;:!?]+$/, '');
+    var trailing = url.slice(cleanUrl.length);
+    return '<a href="' + cleanUrl + '" target="_blank" rel="noopener noreferrer">' + cleanUrl + '</a>' + trailing;
+  });
 }
 
 function formatAgentName(name) {
