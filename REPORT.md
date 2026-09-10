@@ -2,7 +2,7 @@
 
 **Assignment**: Hiver SDE Intern Take-Home  
 **Brand**: AppleSupport (Twitter Customer Support dataset)  
-**Author**: [Your Name]  
+**Author**: Sailesh Kumar Panda 
 **Date**: September 2026
 
 ---
