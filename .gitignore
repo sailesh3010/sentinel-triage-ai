@@ -1,0 +1,29 @@
+# Byte-compiled / caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Secrets & Environment (CRITICAL: Do not commit)
+.env
+.env.local
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large model artifacts & binary weights (re-creatable via run_pipeline.py)
+models/
+*.pkl
+*.npy
+
+# Large raw conversation dumps (re-downloadable via pipeline)
+data/apple_conversations_raw.json
+data/banking77.json

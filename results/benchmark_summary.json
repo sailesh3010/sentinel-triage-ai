@@ -1,0 +1,34 @@
+{
+  "pipeline_time_seconds": 117.3,
+  "golden_set_size": 200,
+  "knowledge_base_size": 5000,
+  "agents": {
+    "trivial_baseline": {
+      "intent_accuracy": 0.17,
+      "intent_macro_f1": 0.0484,
+      "escalation_accuracy": 0.455,
+      "escalation_f1": 0.0,
+      "false_auto_handle_rate": 1.0,
+      "rouge1": 0.3782,
+      "rougeL": 0.3053
+    },
+    "tfidf_baseline": {
+      "intent_accuracy": 0.725,
+      "intent_macro_f1": 0.7331,
+      "escalation_accuracy": 0.58,
+      "escalation_f1": 0.3824,
+      "false_auto_handle_rate": 0.7615,
+      "rouge1": 0.7693,
+      "rougeL": 0.7506
+    },
+    "proposed_agent": {
+      "intent_accuracy": 0.83,
+      "intent_macro_f1": 0.8424,
+      "escalation_accuracy": 0.87,
+      "escalation_f1": 0.8687,
+      "false_auto_handle_rate": 0.211,
+      "rouge1": 0.4683,
+      "rougeL": 0.4342
+    }
+  }
+}

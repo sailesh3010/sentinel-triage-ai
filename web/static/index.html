@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AI Customer Support Agent for AppleSupport — Hiver SDE Intern Take-Home Assignment">
+  <title>Hiver AI Support Agent | AppleSupport</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+  <!-- ─── Navbar ─── -->
+  <nav class="navbar">
+    <a class="navbar-brand" href="#">
+      <div class="logo">🍎</div>
+      <span>Hiver AI Agent</span>
+    </a>
+    <ul class="nav-tabs" id="navTabs">
+      <li class="active" data-tab="playground">🎯 Playground</li>
+      <li data-tab="benchmark">📊 Benchmark</li>
+      <li data-tab="golden">🏅 Golden Set</li>
+      <li data-tab="banking77">🏦 Banking77</li>
+    </ul>
+  </nav>
+
+  <!-- ─── Main Content ─── -->
+  <div class="main-content">
+
+    <!-- ═══ TAB: Playground ═══ -->
+    <div class="tab-content active" id="tab-playground">
+      <div class="section-header">
+        <h1>AI Support Agent Playground</h1>
+        <p>Enter a customer message to see the agent classify intent, decide escalation, retrieve historical cases, and generate a grounded response in real-time.</p>
+      </div>
+
+      <div class="playground-layout">
+        <!-- Input -->
+        <div class="input-section">
+          <div class="card">
+            <div class="card-title">
+              <div class="icon" style="background: var(--gradient-primary);">💬</div>
+              Customer Message
+            </div>
+            <div class="textarea-wrapper">
+              <textarea id="customerInput" placeholder="Type a customer support message, e.g.: 'My iPhone keeps crashing after the iOS update...'"></textarea>
+            </div>
+            <div style="margin-top: 1rem;">
+              <button class="btn-primary" id="predictBtn" onclick="predict()">
+                <span class="spinner"></span>
+                <span class="btn-text">Analyze & Generate Reply</span>
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-title">⚡ Quick Test Cases</div>
+            <div class="quick-tests" id="quickTests">
+              <span class="quick-test-btn">Loading...</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Results -->
+        <div class="results-panel" id="resultsPanel">
+          <div class="placeholder">
+            <div class="icon-large">🤖</div>
+            <p>Enter a message or click a quick test case to see the agent in action.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ TAB: Benchmark ═══ -->
+    <div class="tab-content" id="tab-benchmark">
+      <div class="section-header">
+        <h1>Evaluation Benchmark</h1>
+        <p>Head-to-head comparison of Trivial Baseline, TF-IDF Baseline, and the Proposed AI Agent across intent classification, escalation, and response quality metrics.</p>
+      </div>
+      <div id="benchmarkContent">
+        <div class="placeholder">
+          <div class="icon-large">📊</div>
+          <p>Loading benchmark results...</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ TAB: Golden Set ═══ -->
+    <div class="tab-content" id="tab-golden">
+      <div class="section-header">
+        <h1>Golden Evaluation Set</h1>
+        <p>200 hand-labelled examples with ground-truth intents, escalation decisions, and difficulty tags. Search and filter by intent or difficulty.</p>
+      </div>
+      <div class="search-bar">
+        <input type="text" id="goldenSearch" placeholder="🔍 Search customer tweets..." oninput="filterGolden()">
+        <select id="goldenIntentFilter" onchange="filterGolden()">
+          <option value="">All Intents</option>
+          <option value="software_troubleshooting">Software Troubleshooting</option>
+          <option value="battery_power">Battery & Power</option>
+          <option value="connectivity">Connectivity</option>
+          <option value="account_security">Account Security</option>
+          <option value="hardware_damage">Hardware Damage</option>
+          <option value="billing_store">Billing & Store</option>
+        </select>
+        <select id="goldenDiffFilter" onchange="filterGolden()">
+          <option value="">All Difficulties</option>
+          <option value="standard">Standard</option>
+          <option value="ambiguous">Ambiguous</option>
+          <option value="adversarial">Adversarial</option>
+          <option value="multi_intent">Multi-Intent</option>
+        </select>
+      </div>
+      <div class="golden-cards" id="goldenCards">
+        <div class="placeholder">
+          <div class="icon-large">🏅</div>
+          <p>Loading golden set...</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══ TAB: Banking77 ═══ -->
+    <div class="tab-content" id="tab-banking77">
+      <div class="section-header">
+        <h1>Banking77 Cross-Domain Analysis</h1>
+        <p>Secondary dataset analysis: mapping 77 banking intents to our 6-class AppleSupport taxonomy, cross-domain transfer evaluation, and design insights.</p>
+      </div>
+      <div id="banking77Content">
+        <div class="placeholder">
+          <div class="icon-large">🏦</div>
+          <p>Loading Banking77 analysis...</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

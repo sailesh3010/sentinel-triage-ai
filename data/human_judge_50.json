@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "6602d9ca0a87190afa008ddf5e3de689",
+    "customer_tweet": "¿Soy solo yo o al resto del mundo también le falla mucho el #iphone desde las últimas actualizaciones de #ios? Es frustrante. @AppleSupport",
+    "gold_intent": "software_troubleshooting",
+    "intent_confidence": 0.5,
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard troubleshooting issue suitable for automated guidance",
+    "gold_human_reply": "We offer support via Twitter in English. Get help in Spanish here: https://t.co/IBIY3vMgPj or join https://t.co/OczyRx7IOs",
+    "difficulty_tag": "standard",
+    "num_turns": 2,
+    "golden_id": "GS-059",
+    "sampling_stratum": "software_troubleshooting",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "5e630c3a4a54fd7beaf06a8859a4dbbf",
+    "customer_tweet": "please explain to me why this update has my battery level dropping by like 40 % in a half hour.",
+    "gold_intent": "software_troubleshooting",
+    "intent_confidence": 0.5,
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard troubleshooting issue suitable for automated guidance",
+    "gold_human_reply": "That’s not what we want to hear! We’ll be glad to explore this together. Can you send us a DM letting us know more? https://t.co/GDrqU22YpT",
+    "difficulty_tag": "standard",
+    "num_turns": 3,
+    "golden_id": "GS-063",
+    "sampling_stratum": "software_troubleshooting",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "dd1b1d1fb94125e920c4771278e54149",
+    "customer_tweet": "updated iPhone to new iOS. Now location sharing doesn’t work even with location services clearly on. #bugaboo",
+    "gold_intent": "software_troubleshooting",
+    "intent_confidence": 1.0,
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard troubleshooting issue suitable for automated guidance",
+    "gold_human_reply": "We'd like to take a look into this with you. Have you confirmed the settings are still correct?",
+    "difficulty_tag": "standard",
+    "num_turns": 4,
+    "golden_id": "GS-050",
+    "sampling_stratum": "software_troubleshooting",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "abaecf22acacc1e814005c71f3c83ff0",
+    "customer_tweet": "iOS 11 bug. Bluetooth turn off, show pairing for earphones in public which not belong to me.",
+    "gold_intent": "software_troubleshooting",
+    "intent_confidence": 0.5,
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard troubleshooting issue suitable for automated guidance",
+    "gold_human_reply": "Thank you for reaching out to us about Bluetooth. Please send us a DM with which device you're using. https://t.co/GDrqU22YpT",
+    "difficulty_tag": "standard",
+    "num_turns": 4,
+    "golden_id": "GS-067",
+    "sampling_stratum": "software_troubleshooting",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "6f599e962d0e4c0366483388c144ecc0",
+    "customer_tweet": "Why have I no longer got the option to turn off auto-brightness @AppleSupport #ios11 #update doing my head in!",
+    "gold_intent": "software_troubleshooting",
+    "intent_confidence": 0.667,
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard troubleshooting issue suitable for automated guidance",
+    "gold_human_reply": "Auto-Brightness can be turned off in Settings &gt; General &gt; Accessibility &gt; Display Accommodations: https://t.co/gvy8yXCine",
+    "difficulty_tag": "standard",
+    "num_turns": 4,
+    "golden_id": "GS-061",
+    "sampling_stratum": "software_troubleshooting",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "822268636ef8595ce9d417551738309e",
+    "customer_tweet": "I have drop something in your inbox. Please check and solve the issue",
+    "gold_intent": "software_troubleshooting",
+    "intent_confidence": 0.3,
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "High customer frustration/churn risk requiring senior human agent",
+    "gold_human_reply": "We've received your DM, and we'll continue from there. Be on the lookout for a reply.",
+    "difficulty_tag": "ambiguous",
+    "num_turns": 3,
+    "golden_id": "GS-042",
+    "sampling_stratum": "software_troubleshooting",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "7d3b17237cada1154a50a9ca3639e6b1",
+    "customer_tweet": "Facing some Wifi Issues on Iphone 6S Ios 11. Wifi runs even after switch off in control center...",
+    "gold_intent": "software_troubleshooting",
+    "intent_confidence": 0.5,
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "High customer frustration/churn risk requiring senior human agent",
+    "gold_human_reply": "There is new functionality in iOS 11 for Control Center. Take a look: https://t.co/G7BHuQnDS6",
+    "difficulty_tag": "standard",
+    "num_turns": 2,
+    "golden_id": "GS-054",
+    "sampling_stratum": "software_troubleshooting",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "4661281ff3f97b5f287862d4dd409bc7",
+    "customer_tweet": "Can @115858 stop being a POS and give us the @115888 lock screen control back? Thx. #spotify #iPhone #ios11update 😒🙄",
+    "gold_intent": "software_troubleshooting",
+    "intent_confidence": 0.5,
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard troubleshooting issue suitable for automated guidance",
+    "gold_human_reply": "We understand you need your iPhone to respond and we want to help you with this. Please send us a DM. https://t.co/GDrqU22YpT",
+    "difficulty_tag": "multi_intent",
+    "num_turns": 3,
+    "golden_id": "GS-035",
+    "sampling_stratum": "software_troubleshooting",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "fb254e5584ebd647ba345038c4025f54",
+    "customer_tweet": "Seit 10 Tagen Probleme mit iCloud und @AppleSupport bekommt es nicht auf die Reihe - zwei Vorgesetzte haben es schon probiert",
+    "gold_intent": "account_security",
+    "intent_confidence": 0.5,
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Requires secure identity verification and private account access via DM",
+    "gold_human_reply": "We offer support via Twitter in English. Contact us for help in your preferred language here: https://t.co/IBIY3vMgPj",
+    "difficulty_tag": "standard",
+    "num_turns": 2,
+    "golden_id": "GS-092",
+    "sampling_stratum": "account_security",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "9ace8340fbcc1a617acd6cdaa4355233",
+    "customer_tweet": "I need help with my Apple ID",
+    "gold_intent": "account_security",
+    "intent_confidence": 1.0,
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Requires secure identity verification and private account access via DM",
+    "gold_human_reply": "We're happy to help. What kind of issues are you facing with your Apple ID?",
+    "difficulty_tag": "standard",
+    "num_turns": 5,
+    "golden_id": "GS-101",
+    "sampling_stratum": "account_security",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "80f5de14bf888b4ecb9ccf1fc906c1a9",
+    "customer_tweet": "Dear @115858, get your shit together. @118721 says incorrect password, while I'm signed into the cloud...on the same damn MacBook.",
+    "gold_intent": "account_security",
+    "intent_confidence": 1.0,
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Contains sensitive personal information requiring secure DM channel",
+    "gold_human_reply": "Allow us to assist. Send us a DM so that we can help you with this. https://t.co/GDrqU22YpT",
+    "difficulty_tag": "standard",
+    "num_turns": 2,
+    "golden_id": "GS-084",
+    "sampling_stratum": "account_security",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "6548808df3c37463b40b70cab85a67d3",
+    "customer_tweet": "my iPhone 6S won't download any apps and idk why? I have plenty of storage available so it's not that",
+    "gold_intent": "account_security",
+    "intent_confidence": 1.0,
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Requires secure identity verification and private account access via DM",
+    "gold_human_reply": "We're here to help. DM us what iOS version you're on and we'll help. https://t.co/GDrqU22YpT",
+    "difficulty_tag": "standard",
+    "num_turns": 3,
+    "golden_id": "GS-088",
+    "sampling_stratum": "account_security",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "3f8c649faffa45179304a6dc5cc06069",
+    "customer_tweet": "Why won’t my Apple Music/Spotify/podcasts show up on my lock screen anymore? Works, then doesn’t. Among other issues with 11..",
+    "gold_intent": "account_security",
+    "intent_confidence": 0.5,
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "High customer frustration/churn risk requiring senior human agent",
+    "gold_human_reply": "When did you first encounter the issue?",
+    "difficulty_tag": "standard",
+    "num_turns": 5,
+    "golden_id": "GS-080",
+    "sampling_stratum": "account_security",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "527ddf621df782204ae4a0e2cf18329a",
+    "customer_tweet": "pls fix the portrait to landscape orientation bug. Randomly switches even when my phone has it locked lol",
+    "gold_intent": "account_security",
+    "intent_confidence": 0.5,
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Requires secure identity verification and private account access via DM",
+    "gold_human_reply": "We can help out. Tell us the iOS version your iPhone is on, and we’ll work towards a resolution together.",
+    "difficulty_tag": "multi_intent",
+    "num_turns": 2,
+    "golden_id": "GS-071",
+    "sampling_stratum": "account_security",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "56f488c0c8ea42ba88bac061abaab0a9",
+    "customer_tweet": "my daughters locked herself out of her iPod can you help me get back into it please? https://t.co/of9n9WWLwp",
+    "gold_intent": "account_security",
+    "intent_confidence": 1.0,
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Requires secure identity verification and private account access via DM",
+    "gold_human_reply": "We'd be happy to help out. Have you given these steps a try? https://t.co/yFrcT36syx If that doesn't work, send us a DM. https://t.co/GDrqU22YpT",
+    "difficulty_tag": "standard",
+    "num_turns": 2,
+    "golden_id": "GS-090",
+    "sampling_stratum": "account_security",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "85b41cc98547ecf54269d202765acee6",
+    "customer_tweet": "If I inadvertently deleted note month ago in Notes app &amp; have been backing up daily to iCloud Possible to retrieve that note? @AppleSupport",
+    "gold_intent": "account_security",
+    "intent_confidence": 0.5,
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Requires secure identity verification and private account access via DM",
+    "gold_human_reply": "Glad you reached out. Please DM us and we can chat. https://t.co/GDrqU22YpT",
+    "difficulty_tag": "standard",
+    "num_turns": 2,
+    "golden_id": "GS-097",
+    "sampling_stratum": "account_security",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "7eafc6e2d064c1775352b130dac39a4d",
+    "customer_tweet": "My battery goes from %100 to %89 in 5 minutes come on now @AppleSupport",
+    "gold_intent": "battery_power",
+    "intent_confidence": 0.5,
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard troubleshooting issue suitable for automated guidance",
+    "gold_human_reply": "Thanks for reaching out. We'd like to help with your battery. Please DM us with the country where you're located to start. https://t.co/GDrqU22YpT",
+    "difficulty_tag": "standard",
+    "num_turns": 2,
+    "golden_id": "GS-130",
+    "sampling_stratum": "battery_power",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "b77f7f4dee912fd05c8d794b62a7b927",
+    "customer_tweet": "App Store seems to have been hammering the battery while doing nothing? https://t.co/Pjw5IOBAoB",
+    "gold_intent": "battery_power",
+    "intent_confidence": 0.5,
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard troubleshooting issue suitable for automated guidance",
+    "gold_human_reply": "We can help! It looks like you have some apps using background activity which can have an impact. DM us. We'll go from there. https://t.co/GDrqU22YpT",
+    "difficulty_tag": "standard",
+    "num_turns": 3,
+    "golden_id": "GS-120",
+    "sampling_stratum": "battery_power",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "e783845b51c22cd0f0a9009e05f6ba9d",
+    "customer_tweet": "ever since I’ve updated my iPhone, I keep getting this about my charger. It’s new and not damaged at all, what should I do? https://t.co/ny2katiGah",
+    "gold_intent": "battery_power",
+    "intent_confidence": 0.4,
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard troubleshooting issue suitable for automated guidance",
+    "gold_human_reply": "We'll help out. Is this the charger that came with your iPhone? Take a look at this article: https://t.co/XjQmi8bSfX",
+    "difficulty_tag": "multi_intent",
+    "num_turns": 8,
+    "golden_id": "GS-106",
+    "sampling_stratum": "battery_power",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "d847b708e0bc0ade6937152436d55512",
+    "customer_tweet": "Hey @115858, that’s cool. But where’s the “Fixed an issue with ruining your battery”.. https://t.co/hBpPvO88o3",
+    "gold_intent": "battery_power",
+    "intent_confidence": 1.0,
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "High customer frustration/churn risk requiring senior human agent",
+    "gold_human_reply": "If you’re experiencing issues with your battery, we’re here to help. Which iOS is currently installed? Which device do you have?",
+    "difficulty_tag": "standard",
+    "num_turns": 5,
+    "golden_id": "GS-118",
+    "sampling_stratum": "battery_power",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "035f6c2ae021b326162a5bef066a4202",
+    "customer_tweet": "It went down 2% in two minutes with low battery use on. What the fuck, @115858?",
+    "gold_intent": "battery_power",
+    "intent_confidence": 1.0,
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard troubleshooting issue suitable for automated guidance",
+    "gold_human_reply": "We can offer some assistance. Send us a DM with which device you are using and we'll continue there. https://t.co/GDrqU22YpT",
+    "difficulty_tag": "standard",
+    "num_turns": 2,
+    "golden_id": "GS-119",
+    "sampling_stratum": "battery_power",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "d9bee414d162d06e5edb5b50255dba3a",
+    "customer_tweet": "Luuuuv updating my phone and having my battery drop from 100% to 25% in 30 minutes:~))))) @115858",
+    "gold_intent": "battery_power",
+    "intent_confidence": 1.0,
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard troubleshooting issue suitable for automated guidance",
+    "gold_human_reply": "Have you updated to 11.0.2 yet? https://t.co/80YRnjDFDk DM and let us know. https://t.co/GDrqU22YpT",
+    "difficulty_tag": "standard",
+    "num_turns": 2,
+    "golden_id": "GS-116",
+    "sampling_stratum": "battery_power",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "64613bb4f3e069a96d775d2ded76eac6",
+    "customer_tweet": "terrible battery life on the iPhone 8.. if u use iMessage constantly the battery lasts no more than 3-4 hours",
+    "gold_intent": "battery_power",
+    "intent_confidence": 1.0,
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard troubleshooting issue suitable for automated guidance",
+    "gold_human_reply": "We'd like to help. Let's take this to DM and we'll explore ways to provide you assistance. https://t.co/GDrqU22YpT",
+    "difficulty_tag": "standard",
+    "num_turns": 2,
+    "golden_id": "GS-117",
+    "sampling_stratum": "battery_power",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "5b66f7241a7b121068c66d2406a428ab",
+    "customer_tweet": "since upgrading my SE to IOS 11 the battery life is horrendous! I charge it and it goes from 100 to 20 in 6 hrs and I don’t use it..",
+    "gold_intent": "battery_power",
+    "intent_confidence": 0.5,
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard troubleshooting issue suitable for automated guidance",
+    "gold_human_reply": "We'd love to gather more details and check into that battery life issue today. Which exact iOS 11 version is running on the SE?",
+    "difficulty_tag": "multi_intent",
+    "num_turns": 7,
+    "golden_id": "GS-104",
+    "sampling_stratum": "battery_power",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "34a925cddf9b98dce542ea7e6b50bbd1",
+    "customer_tweet": "Accidentally deleted Apple Music on my mobile and re-downloaded it but all my downloaded music is gone what do I do? @AppleSupport",
+    "gold_intent": "hardware_damage",
+    "intent_confidence": 1.0,
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Requires in-person hardware diagnostic or Genius Bar appointment",
+    "gold_human_reply": "We're happy to help. Please DM us to proceed: https://t.co/GDrqU22YpT",
+    "difficulty_tag": "standard",
+    "num_turns": 2,
+    "golden_id": "GS-152",
+    "sampling_stratum": "hardware_damage",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "94ba1082bf0e6dae098392ed3dc0e58e",
+    "customer_tweet": "So the new iPhone upgrade doesn’t allow my USB port to play music in my car @AppleSupport 😩 Fix it please",
+    "gold_intent": "hardware_damage",
+    "intent_confidence": 1.0,
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Requires in-person hardware diagnostic or Genius Bar appointment",
+    "gold_human_reply": "We'd like to get some info to see if we can help. You're connecting via USB but the car stereo doesn't see the iPhone? Correct?",
+    "difficulty_tag": "standard",
+    "num_turns": 4,
+    "golden_id": "GS-150",
+    "sampling_stratum": "hardware_damage",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "a2b12d7cf762d6cfb6ea086f9f492626",
+    "customer_tweet": "is there dev support anywhere to be found?",
+    "gold_intent": "hardware_damage",
+    "intent_confidence": 1.0,
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Requires in-person hardware diagnostic or Genius Bar appointment",
+    "gold_human_reply": "We'd love to get you pointed in the right direction. This website should help: https://t.co/MN29maiV1D",
+    "difficulty_tag": "standard",
+    "num_turns": 3,
+    "golden_id": "GS-166",
+    "sampling_stratum": "hardware_damage",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "5c9bb27cf048c0499ec1e9051396068e",
+    "customer_tweet": "How can I close Background Apps? I’ve tried double clicking the Home Button but nothing ... https://t.co/8j46n3DABC",
+    "gold_intent": "hardware_damage",
+    "intent_confidence": 1.0,
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Requires in-person hardware diagnostic or Genius Bar appointment",
+    "gold_human_reply": "Double-clicking the Home button should show recently used apps that can be force closed. Which iOS version is your device on?",
+    "difficulty_tag": "standard",
+    "num_turns": 11,
+    "golden_id": "GS-165",
+    "sampling_stratum": "hardware_damage",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "a52ab4d8d6d8c6f374c8c08582980a7e",
+    "customer_tweet": "miserably failed to support and provide a solution @1647 @122986 help on to choose a new phone https://t.co/1dx9Uv27tw",
+    "gold_intent": "hardware_damage",
+    "intent_confidence": 1.0,
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Requires in-person hardware diagnostic or Genius Bar appointment",
+    "gold_human_reply": "We'd love to assist you with your phone. Let's continue in DM. Click here: https://t.co/GDrqU22YpT",
+    "difficulty_tag": "standard",
+    "num_turns": 2,
+    "golden_id": "GS-155",
+    "sampling_stratum": "hardware_damage",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "d0f37bc5f63fac7f3c64358ca00e9382",
+    "customer_tweet": "Just got the iPhone 8 plus and it’s already overheating and screen has a glitch when I made a FT call. #iphone8problems @AppleSupport https://t.co/RUKCs016F1",
+    "gold_intent": "hardware_damage",
+    "intent_confidence": 0.4,
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Requires in-person hardware diagnostic or Genius Bar appointment",
+    "gold_human_reply": "We’d like to understand more about this. Please DM us which country you're located in, and we'll get started. https://t.co/GDrqU22YpT",
+    "difficulty_tag": "multi_intent",
+    "num_turns": 2,
+    "golden_id": "GS-140",
+    "sampling_stratum": "hardware_damage",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "7def705bcadad4efad42179153219496",
+    "customer_tweet": "Getting really sick of the bullshit I’m having to go through just to set up my sisters phone 🙄🙄😡😡 @AppleSupport",
+    "gold_intent": "hardware_damage",
+    "intent_confidence": 1.0,
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Requires in-person hardware diagnostic or Genius Bar appointment",
+    "gold_human_reply": "We want to help. Send us a DM and we'll go from there. https://t.co/GDrqU22YpT",
+    "difficulty_tag": "adversarial",
+    "num_turns": 2,
+    "golden_id": "GS-143",
+    "sampling_stratum": "hardware_damage",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "252c0f21478e4b60ea35a7022d9bdf0d",
+    "customer_tweet": "I wish you could leave a video message like a voicemail thing when someone doesn’t answer your FaceTime 🤔 #Apple @115858 @AppleSupport",
+    "gold_intent": "hardware_damage",
+    "intent_confidence": 1.0,
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Requires in-person hardware diagnostic or Genius Bar appointment",
+    "gold_human_reply": "Apple welcomes suggestions. Here’s a great link to submit your feedback: https://t.co/eTPVYVFyd8",
+    "difficulty_tag": "standard",
+    "num_turns": 2,
+    "golden_id": "GS-156",
+    "sampling_stratum": "hardware_damage",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "e29a5c478490f5fe225e9f56fdaa4701",
+    "customer_tweet": "Nice @115858. Less than a week old then WiFi and BT break on my new iPhone. I tried all your support articles. So glad I purchased! https://t.co/WKbGgSY6QV",
+    "gold_intent": "connectivity",
+    "intent_confidence": 0.333,
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard troubleshooting issue suitable for automated guidance",
+    "gold_human_reply": "We're here to help. Which version of iOS do you have installed on your iPhone? You'll see this in Settings &gt; General &gt; About.",
+    "difficulty_tag": "multi_intent",
+    "num_turns": 4,
+    "golden_id": "GS-010",
+    "sampling_stratum": "connectivity",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "3589423f14a5ed007a882dc3d5a20bad",
+    "customer_tweet": "My Bluetooth turns on and off on its own. My music wont play because I’ll randomly connect to a far away ass WiFi. The letter are big @115858",
+    "gold_intent": "connectivity",
+    "intent_confidence": 1.0,
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard troubleshooting issue suitable for automated guidance",
+    "gold_human_reply": "Let's work together to make sure your features are working correctly. Send us a DM with what type of device you're using. https://t.co/GDrqU22YpT",
+    "difficulty_tag": "standard",
+    "num_turns": 2,
+    "golden_id": "GS-028",
+    "sampling_stratum": "connectivity",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "93597ac925add641cdbb40126a40506d",
+    "customer_tweet": "When your iPhone won’t connect to WiFi or let you turn it on and you’ve tried every fix. Gee, thanks @115858",
+    "gold_intent": "connectivity",
+    "intent_confidence": 1.0,
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard troubleshooting issue suitable for automated guidance",
+    "gold_human_reply": "No Wi-Fi connection is no good. We can help out with this. Please shoot us a DM and tell us what version of iOS you're on. https://t.co/GDrqU22YpT",
+    "difficulty_tag": "standard",
+    "num_turns": 2,
+    "golden_id": "GS-031",
+    "sampling_stratum": "connectivity",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "3e9026a3b17066f157f66b0bf0eaa070",
+    "customer_tweet": "Is there a reason my iPhone 8+ keeps turning the WiFi back on after I turn it off?",
+    "gold_intent": "connectivity",
+    "intent_confidence": 1.0,
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard troubleshooting issue suitable for automated guidance",
+    "gold_human_reply": "Glad you reached out. Please check out this link that shows some changes we made in iOS 11 https://t.co/vzVz37YMv0",
+    "difficulty_tag": "standard",
+    "num_turns": 3,
+    "golden_id": "GS-019",
+    "sampling_stratum": "connectivity",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "81b3e5872621c54c48a2ef128e528a6d",
+    "customer_tweet": "Y it happens if i turn off wifi n BT &amp; goto flight mode &amp; whn swtch to general mode again..wifi n BT gets enabled by itself? @AppleSupport",
+    "gold_intent": "connectivity",
+    "intent_confidence": 0.5,
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard troubleshooting issue suitable for automated guidance",
+    "gold_human_reply": "We'd be happy to look into this with you more in detail. Please reach out to us via DM and we'll get started. https://t.co/GDrqU22YpT",
+    "difficulty_tag": "standard",
+    "num_turns": 2,
+    "golden_id": "GS-026",
+    "sampling_stratum": "connectivity",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "bc6b2b0cccb12d23e176771e894559ea",
+    "customer_tweet": "Dear @115858 plz let me go 2 updates back My 7+ runs terrible now. Freezes nonstop, battery drains in 30 mins, Bluetooth disconnects &amp; more🙄",
+    "gold_intent": "connectivity",
+    "intent_confidence": 0.429,
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard troubleshooting issue suitable for automated guidance",
+    "gold_human_reply": "We’re here to help. Let’s team up in DM and we’ll do our best to assist you. https://t.co/GDrqU22YpT",
+    "difficulty_tag": "multi_intent",
+    "num_turns": 2,
+    "golden_id": "GS-011",
+    "sampling_stratum": "connectivity",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "a039fadc3ec3aad1e9c8d0e7f426fb3c",
+    "customer_tweet": "my phone keeps turning brightness up, wifi on, and bluetooth on. My phone died and wouldnt turn on for a while. ios 11 👎🏼",
+    "gold_intent": "connectivity",
+    "intent_confidence": 0.667,
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard troubleshooting issue suitable for automated guidance",
+    "gold_human_reply": "We'd like to team up and tackle all three of your issues. Which model do you have and is iOS 11.0.2 the version installed?",
+    "difficulty_tag": "standard",
+    "num_turns": 2,
+    "golden_id": "GS-018",
+    "sampling_stratum": "connectivity",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "e028b2a4ab41a0d8f8c7f90b5086f4f8",
+    "customer_tweet": "I need some help with my beats headphones. Can I take them into an apple store for an exchange if they stopped working",
+    "gold_intent": "connectivity",
+    "intent_confidence": 1.0,
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard troubleshooting issue suitable for automated guidance",
+    "gold_human_reply": "We can save you a trip! Please DM us to continue. https://t.co/GDrqU22YpT",
+    "difficulty_tag": "standard",
+    "num_turns": 4,
+    "golden_id": "GS-016",
+    "sampling_stratum": "connectivity",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "5cd5e169b702c14fd3e6528e9115415c",
+    "customer_tweet": "hi cancelled Apple Music about 2 months ago and I’m still being charged for it",
+    "gold_intent": "billing_store",
+    "intent_confidence": 0.667,
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Involves private billing/transaction data requiring secure channel",
+    "gold_human_reply": "Reach out to our iTunes Store support via the following link for support with looking in to this issue: https://t.co/SDIe7UiyJN",
+    "difficulty_tag": "standard",
+    "num_turns": 2,
+    "golden_id": "GS-171",
+    "sampling_stratum": "billing_store",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "3ff1103f51b961329fa640072af99424",
+    "customer_tweet": "I purchased a new MacBook Pro yesterday 10-7-17 at the Northpark location. The left shift key does not work. can I get refund",
+    "gold_intent": "billing_store",
+    "intent_confidence": 1.0,
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Involves private billing/transaction data requiring secure channel",
+    "gold_human_reply": "Hi! Our MacBooks come with a 14 day return policy.",
+    "difficulty_tag": "standard",
+    "num_turns": 4,
+    "golden_id": "GS-188",
+    "sampling_stratum": "billing_store",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "6c6960a6432637f4ebb26706066fb772",
+    "customer_tweet": "How do I cancel a subscription that is in the free period??!?!?",
+    "gold_intent": "billing_store",
+    "intent_confidence": 1.0,
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Involves private billing/transaction data requiring secure channel",
+    "gold_human_reply": "We're here to help. Take a look at this article here: https://t.co/YKDbvueXrq",
+    "difficulty_tag": "standard",
+    "num_turns": 2,
+    "golden_id": "GS-197",
+    "sampling_stratum": "billing_store",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "afcd52df8b9f9cc6818d0c00770482ed",
+    "customer_tweet": "due to delivery probs from EE of Apple Watch if I purchased series 3 Watch in USA would it work in Uk on EE",
+    "gold_intent": "billing_store",
+    "intent_confidence": 1.0,
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Involves private billing/transaction data requiring secure channel",
+    "gold_human_reply": "Great question! It's not possible to use an Apple Watch from a different country with your cellular plan. https://t.co/WuqDNKIme1",
+    "difficulty_tag": "standard",
+    "num_turns": 4,
+    "golden_id": "GS-178",
+    "sampling_stratum": "billing_store",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "04d74371a00057066d96009df09c4dab",
+    "customer_tweet": "accidentally purchased something from the App Store I didn’t mean to purchase. Please help!",
+    "gold_intent": "billing_store",
+    "intent_confidence": 1.0,
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Involves private billing/transaction data requiring secure channel",
+    "gold_human_reply": "We're here to help. To get this taken care of, you will need to reach out directly to our iTunes team: https://t.co/SDIe7UiyJN",
+    "difficulty_tag": "standard",
+    "num_turns": 4,
+    "golden_id": "GS-191",
+    "sampling_stratum": "billing_store",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "b3aeb986e9c2335404dcc06bf7ea505f",
+    "customer_tweet": "I still haven’t been issued my refund??? https://t.co/Tlb4mK1iBF",
+    "gold_intent": "billing_store",
+    "intent_confidence": 1.0,
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "High customer frustration/churn risk requiring senior human agent",
+    "gold_human_reply": "We’re here to help. Let’s team up in DM and we’ll do our best to assist you. https://t.co/GDrqU22YpT",
+    "difficulty_tag": "standard",
+    "num_turns": 2,
+    "golden_id": "GS-182",
+    "sampling_stratum": "billing_store",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "a094cd641b307154760d15520fa64047",
+    "customer_tweet": "got a fake email about something I never purchased https://t.co/9YQrxGULWQ",
+    "gold_intent": "billing_store",
+    "intent_confidence": 1.0,
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Involves private billing/transaction data requiring secure channel",
+    "gold_human_reply": "Thanks for reaching out. Take a look on how to report phishing attempts here: https://t.co/LNMCdqt6fD",
+    "difficulty_tag": "standard",
+    "num_turns": 2,
+    "golden_id": "GS-173",
+    "sampling_stratum": "billing_store",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "f530eb3927e14d6a3555a0b6d20d88dd",
+    "customer_tweet": "why won’t you let me cancel my purchase from a few hrs ago? i thought i had a 14 day period where i was eligible to cancel it?",
+    "gold_intent": "billing_store",
+    "intent_confidence": 1.0,
+    "gold_escalation": "ESCALATE",
+    "gold_escalation_reason": "Involves private billing/transaction data requiring secure channel",
+    "gold_human_reply": "Let's take a look together. Are you trying to cancel a subscription, or request a refund for an app purchase?",
+    "difficulty_tag": "standard",
+    "num_turns": 5,
+    "golden_id": "GS-194",
+    "sampling_stratum": "billing_store",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "92dce18ef14a32db1edae127395973b8",
+    "customer_tweet": "The new version 11 sure is CRUMMY......slow......unresponsive........what a stupid piece of crap update Don't you test 1st?",
+    "gold_intent": "software_troubleshooting",
+    "intent_confidence": 1.0,
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard troubleshooting issue suitable for automated guidance",
+    "gold_human_reply": "We're happy to look into this with you. Let's investigate further in DM using the link below. https://t.co/GDrqU22YpT",
+    "difficulty_tag": "standard",
+    "num_turns": 2,
+    "golden_id": "GS-049",
+    "sampling_stratum": "software_troubleshooting",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  },
+  {
+    "id": "96f7dabfaf57387f3147b5af9c8b5bec",
+    "customer_tweet": "My iPhone 7 doesnthave an \"auto call answering\" option but I sick of it auto answering after few rings. How do I stop it?😡😡💚💚 @AppleSupport",
+    "gold_intent": "connectivity",
+    "intent_confidence": 0.5,
+    "gold_escalation": "AUTO_HANDLE",
+    "gold_escalation_reason": "Standard troubleshooting issue suitable for automated guidance",
+    "gold_human_reply": "We'd like to help. Does restarting your iPhone have an impact on the issue? Are you using the phone when it does this?",
+    "difficulty_tag": "standard",
+    "num_turns": 3,
+    "golden_id": "GS-033",
+    "sampling_stratum": "connectivity",
+    "human_scores": {
+      "factual_grounding": null,
+      "actionability": null,
+      "tone_empathy": null,
+      "safety_escalation": null,
+      "overall_pass": null
+    }
+  }
+]

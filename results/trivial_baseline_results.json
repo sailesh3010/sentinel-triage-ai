@@ -1,0 +1,123 @@
+{
+  "agent_name": "trivial_baseline",
+  "num_examples": 200,
+  "intent": {
+    "accuracy": 0.17,
+    "macro_precision": 0.0283,
+    "macro_recall": 0.1667,
+    "macro_f1": 0.0484,
+    "per_class": {
+      "account_security": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 33
+      },
+      "battery_power": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 33
+      },
+      "billing_store": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 33
+      },
+      "connectivity": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 34
+      },
+      "hardware_damage": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 33
+      },
+      "software_troubleshooting": {
+        "precision": 0.17,
+        "recall": 1.0,
+        "f1": 0.2906,
+        "support": 34
+      }
+    },
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        33
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        33
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        33
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        34
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        33
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        34
+      ]
+    ],
+    "label_names": [
+      "account_security",
+      "battery_power",
+      "billing_store",
+      "connectivity",
+      "hardware_damage",
+      "software_troubleshooting"
+    ]
+  },
+  "escalation": {
+    "accuracy": 0.455,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "false_auto_handle_rate": 1.0,
+    "false_escalation_rate": 0.0,
+    "false_auto_handle_count": 109,
+    "false_escalation_count": 0
+  },
+  "response": {
+    "rouge1_mean": 0.3782,
+    "rouge2_mean": 0.1374,
+    "rougeL_mean": 0.3053,
+    "bleu_mean": 0.2137,
+    "semantic_similarity_mean": 0.3831
+  }
+}

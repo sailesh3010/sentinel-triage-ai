@@ -1,0 +1,123 @@
+{
+  "agent_name": "tfidf_baseline",
+  "num_examples": 200,
+  "intent": {
+    "accuracy": 0.725,
+    "macro_precision": 0.8873,
+    "macro_recall": 0.7239,
+    "macro_f1": 0.7331,
+    "per_class": {
+      "account_security": {
+        "precision": 1.0,
+        "recall": 0.6667,
+        "f1": 0.8,
+        "support": 33
+      },
+      "battery_power": {
+        "precision": 0.9688,
+        "recall": 0.9394,
+        "f1": 0.9538,
+        "support": 33
+      },
+      "billing_store": {
+        "precision": 1.0,
+        "recall": 0.2424,
+        "f1": 0.3902,
+        "support": 33
+      },
+      "connectivity": {
+        "precision": 1.0,
+        "recall": 0.6765,
+        "f1": 0.807,
+        "support": 34
+      },
+      "hardware_damage": {
+        "precision": 0.9643,
+        "recall": 0.8182,
+        "f1": 0.8852,
+        "support": 33
+      },
+      "software_troubleshooting": {
+        "precision": 0.3908,
+        "recall": 1.0,
+        "f1": 0.562,
+        "support": 34
+      }
+    },
+    "confusion_matrix": [
+      [
+        22,
+        1,
+        0,
+        0,
+        0,
+        10
+      ],
+      [
+        0,
+        31,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        8,
+        0,
+        0,
+        25
+      ],
+      [
+        0,
+        0,
+        0,
+        23,
+        1,
+        10
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        27,
+        6
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        34
+      ]
+    ],
+    "label_names": [
+      "account_security",
+      "battery_power",
+      "billing_store",
+      "connectivity",
+      "hardware_damage",
+      "software_troubleshooting"
+    ]
+  },
+  "escalation": {
+    "accuracy": 0.58,
+    "precision": 0.963,
+    "recall": 0.2385,
+    "f1": 0.3824,
+    "false_auto_handle_rate": 0.7615,
+    "false_escalation_rate": 0.011,
+    "false_auto_handle_count": 83,
+    "false_escalation_count": 1
+  },
+  "response": {
+    "rouge1_mean": 0.7693,
+    "rouge2_mean": 0.7077,
+    "rougeL_mean": 0.7506,
+    "bleu_mean": 0.72,
+    "semantic_similarity_mean": 0.7921
+  }
+}

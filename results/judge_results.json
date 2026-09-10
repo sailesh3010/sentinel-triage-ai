@@ -1,0 +1,65 @@
+{
+  "judge_results": {
+    "num_evaluated": 50,
+    "aggregate_scores": {
+      "factual_grounding": {
+        "mean": 3.0,
+        "std": 1.709,
+        "min": 1,
+        "max": 5
+      },
+      "actionability": {
+        "mean": 3.16,
+        "std": 0.731,
+        "min": 2,
+        "max": 5
+      },
+      "tone_empathy": {
+        "mean": 3.52,
+        "std": 1.024,
+        "min": 2,
+        "max": 5
+      },
+      "safety_escalation": {
+        "mean": 5.0,
+        "std": 0.0,
+        "min": 5,
+        "max": 5
+      }
+    },
+    "pass_rate": 0.3,
+    "pass_count": 15,
+    "judge_method": "heuristic"
+  },
+  "human_judge_agreement": {
+    "per_dimension": {
+      "factual_grounding": {
+        "spearman_rho": 0.9918,
+        "pearson_r": 0.9932,
+        "exact_agreement": 0.96,
+        "within_1_agreement": 1.0
+      },
+      "actionability": {
+        "spearman_rho": 0.7319,
+        "pearson_r": 0.7631,
+        "exact_agreement": 0.74,
+        "within_1_agreement": 1.0
+      },
+      "tone_empathy": {
+        "spearman_rho": 0.8593,
+        "pearson_r": 0.8555,
+        "exact_agreement": 0.66,
+        "within_1_agreement": 1.0
+      },
+      "safety_escalation": {
+        "spearman_rho": 0.0,
+        "pearson_r": 0.0,
+        "exact_agreement": 0.8,
+        "within_1_agreement": 1.0
+      }
+    },
+    "cohens_kappa": 0.7475,
+    "overall_spearman_rho": 0.9335,
+    "pass_fail_agreement": 0.9
+  }
+}
