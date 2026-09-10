@@ -90,7 +90,7 @@ function renderResults(r) {
             <strong>Q:</strong> ${escapeHtml(c.customer_query.substring(0, 120))}${c.customer_query.length > 120 ? '...' : ''}
           </div>
           <div style="margin-top: 0.25rem; color: var(--text-primary);">
-            <strong>A:</strong> ${escapeHtml(c.support_response.substring(0, 150))}${c.support_response.length > 150 ? '...' : ''}
+            <strong>A:</strong> ${autolink(c.support_response.substring(0, 150))}${c.support_response.length > 150 ? '...' : ''}
           </div>
         </div>`;
     });
@@ -135,7 +135,7 @@ function renderResults(r) {
         Generated Reply
         <span style="font-size: 0.75rem; color: var(--text-muted); margin-left: auto;">via ${r.response_method}</span>
       </div>
-      <div class="response-box">${escapeHtml(r.response)}</div>
+      <div class="response-box">${autolink(r.response)}</div>
     </div>
 
     <!-- Retrieved Cases -->
@@ -348,6 +348,11 @@ function escapeHtml(text) {
   const div = document.createElement('div');
   div.textContent = text || '';
   return div.innerHTML;
+}
+
+function autolink(text) {
+  const safe = escapeHtml(text);
+  return safe.replace(/(https?:\/\/[^\s<)]+)/g, '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>');
 }
 
 function formatAgentName(name) {
